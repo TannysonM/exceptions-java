@@ -48,11 +48,11 @@ public class Program_Soluction_Good {
 				System.out.println("Error in Reservation: Reservation dates for update must be future dates");
 			}
 			else if (!ckeckOut.after(ckeckIn)) {
-				System.out.println("Error in reservation: " + "Check-out date must be after ckeck-in date.");
+				System.out.println("Error in reservation: Check-out date must be after ckeck-in date.");
 			}else { 
 			//Comando criado para atualizar as datas
 			res.updateDates(ckeckIn, ckeckOut);
-			System.out.println("Reservation update: " + res + ". Boa viagem!");
+			System.out.println("Reservation update: " + res + ". Boa viagem!!!");
 			}}
 			else {
 				System.out.println("Não houve alteração das datas. Boa Viagem!");
